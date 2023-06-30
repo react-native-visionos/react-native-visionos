@@ -16,6 +16,11 @@ There are a few things that need to be addressed before this is ready for use:
 
 - [ ] CocoaPods releases support for visionOS (https://github.com/CocoaPods/CocoaPods/issues/11961)
 - [ ] Update the React Native template to support visionOS
+- [ ] Add visionOS support to the following pods:
+  - [ ] libevent
+  - [ ] SocketRocket
+  - [ ] fmt
+  - [ ] OCMock
 
 ### Contributing
 
