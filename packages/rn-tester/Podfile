@@ -34,7 +34,7 @@ end
 
 $shouldUseFlipper =  ENV['USE_FLIPPER'] ? ENV['USE_FLIPPER'] == '1' : !IN_CI && !USE_FRAMEWORKS
 
-def pods(target_name, options = {}, use_flipper: $shouldUseFlipper)
+def pods(target_name, options = {}, use_flipper: false)
   project 'RNTesterPods.xcodeproj'
 
   fabric_enabled = true
@@ -82,6 +82,17 @@ end
 
 target 'RNTesterIntegrationTests' do
   pods('RNTesterIntegrationTests')
+  pod 'React-RCTTest', :path => "./RCTTest"
+end
+
+target 'RNTester-visionOS' do
+  platform :visionos, '1.0'
+  pods('RNTester-visionOS')
+end
+
+target 'RNTester-visionOSTests' do
+  platform :visionos, '1.0'
+  pods('RNTester-visionOSUnitTests')
   pod 'React-RCTTest', :path => "./RCTTest"
 end
 
