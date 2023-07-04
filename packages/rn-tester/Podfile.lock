@@ -119,7 +119,6 @@ PODS:
     - DoubleConversion
     - FBReactNativeSpec
     - glog
-    - hermes-engine
     - RCT-Folly
     - RCTRequired
     - RCTTypeSafety
@@ -127,6 +126,7 @@ PODS:
     - React-debug
     - React-Fabric
     - React-graphics
+    - React-jsc
     - React-jsi
     - React-jsiexecutor
     - React-NativeModulesApple
@@ -382,7 +382,7 @@ PODS:
     - React-Fabric/textlayoutmanager (= 1000.0.0)
     - React-Fabric/uimanager (= 1000.0.0)
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -400,7 +400,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -418,7 +418,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -436,7 +436,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -454,7 +454,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -472,7 +472,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -501,7 +501,7 @@ PODS:
     - React-Fabric/components/unimplementedview (= 1000.0.0)
     - React-Fabric/components/view (= 1000.0.0)
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -519,7 +519,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -537,7 +537,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -555,7 +555,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -573,7 +573,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -591,7 +591,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -609,7 +609,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -627,7 +627,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -645,7 +645,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -663,7 +663,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -681,7 +681,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -699,7 +699,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -718,7 +718,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -736,7 +736,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -754,7 +754,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -772,7 +772,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -781,7 +781,6 @@ PODS:
   - React-Fabric/runtimescheduler (1000.0.0):
     - DoubleConversion
     - glog
-    - hermes-engine
     - RCT-Folly/Fabric (= 2021.07.22.00)
     - RCTRequired (= 1000.0.0)
     - RCTTypeSafety (= 1000.0.0)
@@ -789,7 +788,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -807,7 +806,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -825,7 +824,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -843,7 +842,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -862,7 +861,7 @@ PODS:
     - React-debug
     - React-Fabric/uimanager
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -880,7 +879,7 @@ PODS:
     - React-cxxreact
     - React-debug
     - React-graphics (= 1000.0.0)
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -897,7 +896,7 @@ PODS:
     - React-Fabric
     - React-graphics (= 1000.0.0)
     - React-ImageManager
-    - React-jsi (= 1000.0.0)
+    - React-jsi
     - React-jsiexecutor (= 1000.0.0)
     - React-logger
     - React-rendererdebug
@@ -957,7 +956,6 @@ PODS:
   - React-nativeconfig (1000.0.0)
   - React-NativeModulesApple (1000.0.0):
     - glog
-    - hermes-engine
     - React-callinvoker
     - React-Core
     - React-cxxreact
@@ -1090,6 +1088,7 @@ PODS:
     - React-Codegen
     - React-Core
     - React-cxxreact
+    - React-jsi
     - React-NativeModulesApple
     - ReactCommon/turbomodule/core
   - ReactCommon/turbomodule/bridging (1000.0.0):
@@ -1146,7 +1145,6 @@ DEPENDENCIES:
   - FlipperKit/FlipperKitUserDefaultsPlugin (= 0.201.0)
   - FlipperKit/SKIOSNetworkPlugin (= 0.201.0)
   - glog (from `../react-native/third-party-podspecs/glog.podspec`)
-  - hermes-engine (from `../react-native/sdks/hermes-engine/hermes-engine.podspec`)
   - OCMock (~> 3.9.1)
   - RCT-Folly (from `../react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCT-Folly/Fabric (from `../react-native/third-party-podspecs/RCT-Folly.podspec`)
@@ -1163,7 +1161,6 @@ DEPENDENCIES:
   - React-Fabric (from `../react-native/ReactCommon`)
   - React-FabricImage (from `../react-native/ReactCommon`)
   - React-graphics (from `../react-native/ReactCommon/react/renderer/graphics`)
-  - React-hermes (from `../react-native/ReactCommon/hermes`)
   - React-ImageManager (from `../react-native/ReactCommon/react/renderer/imagemanager/platform/ios`)
   - React-jserrorhandler (from `../react-native/ReactCommon/jserrorhandler`)
   - React-jsi (from `../react-native/ReactCommon/jsi`)
@@ -1214,9 +1211,6 @@ EXTERNAL SOURCES:
     :path: "../react-native/React/FBReactNativeSpec"
   glog:
     :podspec: "../react-native/third-party-podspecs/glog.podspec"
-  hermes-engine:
-    :podspec: "../react-native/sdks/hermes-engine/hermes-engine.podspec"
-    :tag: ''
   RCT-Folly:
     :podspec: "../react-native/third-party-podspecs/RCT-Folly.podspec"
   RCTRequired:
@@ -1243,8 +1237,6 @@ EXTERNAL SOURCES:
     :path: "../react-native/ReactCommon"
   React-graphics:
     :path: "../react-native/ReactCommon/react/renderer/graphics"
-  React-hermes:
-    :path: "../react-native/ReactCommon/hermes"
   React-ImageManager:
     :path: "../react-native/ReactCommon/react/renderer/imagemanager/platform/ios"
   React-jserrorhandler:
