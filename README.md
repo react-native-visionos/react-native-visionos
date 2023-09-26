@@ -20,7 +20,7 @@ There are a few things that need to be addressed before this is ready for use:
   - [ ] libevent
   - [ ] SocketRocket (https://github.com/facebookincubator/SocketRocket/pull/669)
   - [ ] fmt
-  - [ ] OCMock
+  - [ ] OCMock (https://github.com/erikdoe/ocmock/pull/530)
 
 ### Contributing
 
